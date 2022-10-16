@@ -30,7 +30,7 @@ The word `NEWSFLASH` is all in caps and as such we can try this as our key.
 
 Accessing the `dcode.fr` webpage and plugging in the coded message and provided the `key = NEWSFLASH` let's see if we can decrypt the message.
 
-<img src="./dcodeviginere.JPG" height="400px" width="300px" />
+<img src="./dcodeviginere.JPG" height="400px" width="350px" />
 
 Lets check the results to see if we got a readable answer.
 
