@@ -4,11 +4,11 @@ Turbo Tactical is looking to infiltrate DEADFACE. We know they're picky about wh
 
 Let us start by looking into Ghost Town and seeing if we can find a post related to vetting new members.
 
-![vetting.JPG](file:///C:/Users/Jarek/.config/joplin-desktop/resources/fea1c3159b8141bfbe904b9e59b282da.JPG)
+![vetting.JPG](vetting.JPG)
 
 Here we see a post specifically about vetting. Looking inside we see discussions about a test for programmers. Further down the post we see the concept for the challenge..
 
-![vet.JPG](file:///C:/Users/Jarek/.config/joplin-desktop/resources/f53f571af0dc494da2896e6c0983b279.JPG)
+![vet.JPG](vet.JPG)
 
 Further down it is decided to add a time limit to the program so users can't manually solve the problem as well as the server side code provided by the creator. Looking into the code can assist with understanding how it is working but is not necessary for solving the challenge.
 
@@ -33,7 +33,7 @@ client.close()
 
 Output shows us that we are receiving 5 arrays of 4 numbers one after another.
 
-![matrix.JPG](file:///C:/Users/Jarek/.config/joplin-desktop/resources/1729e685b32945f096f7112677a7fc9f.JPG)
+![matrix.JPG](matrix.JPG)
 
 Let us trim up our recv and so we can focus on one line at a time. To do this we will limit the recv to 33 bytes giving us the entire length of each row. From there we will trim off the outside brackets and split the string on `', '` to give us a list of the 4 numbers. To do this for each line we will wrap this with a for loop ranging from 0 to 5.
 
