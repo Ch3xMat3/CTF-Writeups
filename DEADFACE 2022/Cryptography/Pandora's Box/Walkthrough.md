@@ -3,7 +3,7 @@
 ## Description
 Pandora's box, we have found it! Even better, the last travelers knew the numbered code to get in but they couldn't figure out the transcription. Figure out the the transcription's translation to find the flag!
 
-<img src="./pandoras_box.png" width="500px" height="250px" />
+<img src="./pandoras_box.png" width="700px" height="400px" />
 
 ## Solution
 It seems we have an encoded message that needs to be cracked and we have a tumbler code that has already been set. When we have an encryption and numbers first item I try is a `ROT` cipher which is to rotate each letter a certain value up or down the alphabet to get a new letter.
