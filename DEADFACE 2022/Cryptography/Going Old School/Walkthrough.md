@@ -1,16 +1,18 @@
 # Going Old School
 
+## Description
 Unable to use their RSA encryption program, **luciafer** resorts to using old school techniques to send a message out to the team. Can you decipher the code and find the flag?
 
 `env.deadface.io`
 
-![Old_School_sm.png](Old_School_sm.png)
+<img src="./Old_School_sm.png" width="700px" height="500px" />
 
+## Solution
 First look seems we have a Vigenere type table, an encrypted message and another message in braille along with a hostname.
 
 Since Vigenere uses a key to crack we will start with the braille.
 
-![braille-alphabet-and-braille-numbers.webp](braille-alphabet-and-braille-numbers.webp)
+<img src="./braille-alphabet-and-braille-numbers.webp" width="700px" height="300px" />
 
 Using an image of braille we can decipher the text to be "PORT #47980"
 
